@@ -11,14 +11,14 @@ public class Regex {
         String regex_firstname = "[A-Z]{1}(?=.*[a-z]).{2,}";
         String regex_lastname = "[A-Z]{1}(?=.*[a-z]).{2,}";
         String regex_email = "^[a-zA-Z]+([._+-]{0,1}[a-zA-Z0-9]+)*@[a-zA-Z0-9]+.[(com)|(co)|(net)]+(?:\\.[a-z]{2,}){0,1}$";
-        String regex_mobile_number="^\\d{2}(\\s{1}\\d{10})$";
-        String regex_password = "^(?=.*[A-Z])(?=.*\\d)[A-Z 0-9]{8,}$";
+        String regex_mobile_number = "^\\d{2}(\\s{1}\\d{10})$";
+        String regex_password ="^[A-Z a-z 0-9]*[@$!%?&][A-Z a-z 0-9]*$";
 
         String firstname = "Talib";
         String lastname = "Sheikh";
         String email = "talibsheikh456@gmail.com";
         String mobile = "91 8793679452";
-        String password = "ABCDEFG1";
+        String password = "ABCDEFG1@";
 
         Pattern pattern = Pattern.compile(regex_firstname);
         Pattern pattern1 = Pattern.compile(regex_lastname);

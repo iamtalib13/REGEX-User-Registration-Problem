@@ -16,7 +16,11 @@ public class Regex {
 
         String firstname = "Talib";
         String lastname = "Sheikh";
-        String email = "talibsheikh456@gmail.com";
+        String email = "abc@yahoo.com";
+       // abc-100@yahoo.com,
+        //abc.100@yahoo.com
+        //abc111@abc.com,
+
         String mobile = "91 8793679452";
         String password = "ABCDEFG1@";
 
